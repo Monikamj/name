@@ -10,7 +10,7 @@ const App =() =>{
 
 const listOfItems = () =>{
     setItems((oldItems) =>{
-        
+        return[...oldItems, inputList];
     })
 };
 
