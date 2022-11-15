@@ -9,8 +9,10 @@ const App =() =>{
 };
 
 const listOfItems = () =>{
-
-}
+    setItems((oldItems) =>{
+        
+    })
+};
 
 return(
 <>
@@ -24,7 +26,7 @@ return(
 
 <ol>
     {/* <li>{inputList}</li> */}
-    {Items.map((itemval) =>{
+    {items.map((itemval) =>{
         return <li>{itemval} </li>
     })}
 
